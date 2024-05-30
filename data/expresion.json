@@ -1,0 +1,6 @@
+[
+  { "id": 1, "expresion": "16 4 + 2 5 * +", "resultado": 30.0 },
+  { "id": 2, "expresion": "79  9 2 /  +", "resultado": 83.5 },
+  { "id": 3, "expresion": "3 4 +", "resultado": 7.0 }
+ 
+]

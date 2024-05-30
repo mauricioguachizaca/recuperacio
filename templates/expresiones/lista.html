@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Expresiones</title>
+</head>
+<body>
+    <h1>Lista de Expresiones</h1>
+    <a href="/expresiones/formulario">Nueva Expresión</a>
+    <table border="1">
+        <tr>
+            <th>Expresión</th>
+            <th>Resultado</th>
+        </tr>
+        {% for expresion in lista %}
+        <tr>
+            <td>{{ expresion._expresion }}</td>
+            <td>{{ expresion._resultado }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
